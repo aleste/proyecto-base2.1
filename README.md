@@ -30,11 +30,13 @@ Instalación
 
     php composer.phar install
 
-  Configure el archivo de parámetros de la aplicación (tome como referencia el archivo parameters.dist.yml):
+  Configure el archivo de parámetros de la aplicación y DB (tome como referencia el archivo parameters.dist.yml) y cree el archivo:
 
     app/config/parameters.yml
 
-  Configure los permisos de la aplicación: Siga los pasos descriptos en el apartado "Setting up Permissions" de la [documentación][3] de Symfony.
+  Configure los permisos de la aplicación: 
+
+    Siga los pasos descriptos en el apartado "Setting up Permissions" de la [documentación][3] de Symfony.
 
   Cree la base de datos el schema básico:
 
@@ -54,7 +56,7 @@ Instalación
 
     php app/console assetic:dump web
 
-**NOTA:** Si no están bien configurados los permisos es posible que deba utilizar *sudo* para ejecutar los comandos. (Esto suponiendo que está trabajando en entorno linux. Si estas con Windows....areglate!)
+**NOTA:** Si no están bien configurados los permisos es posible que deba utilizar *sudo* para ejecutar los comandos (esto suponiendo que está trabajando en entorno linux, si estás con Windows....arreglate!)
 
 [1]:  http://getcomposer.org/
 [2]:  http://getcomposer.org/
