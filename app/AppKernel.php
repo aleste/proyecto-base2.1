@@ -32,6 +32,7 @@ class AppKernel extends Kernel
             new FOS\UserBundle\FOSUserBundle(),            
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
             new Liuggio\ExcelBundle\LiuggioExcelBundle(),
+            new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle(),
             new Application\Sonata\UserBundle\ApplicationSonataUserBundle()
 
         );

@@ -38,8 +38,7 @@ security:
                 use_referer:    true
             logout:
                 path:           /admin/logout
-                #target:         /admin/login
-                target:         /
+                target:         /admin/login                
             anonymous:    true
         # -> end custom configuration
         #Opcional para proteger el frontend
@@ -51,18 +50,18 @@ security:
 
 
         # defaut login area for standard users
-    #    main:
-    #        switch_user:        true
-    #        context:            user
-    #        pattern:            .*
-    #        form_login:
-    #            provider:       fos_userbundle
-    #            login_path:     /login
-    #            use_forward:    false
-    #            check_path:     /login_check
-    #            failure_path:   null
-    #        logout:             true
-    #        anonymous:          true        
+        main:
+            switch_user:        true
+            context:            user
+            pattern:            .*
+            form_login:
+                provider:       fos_userbundle
+                login_path:     /login
+                use_forward:    false
+                check_path:     /login_check
+                failure_path:   null
+            logout:             true
+            anonymous:          true        
     access_control:
         # URL of FOSUserBundle which need to be available to anonymous users
         - { path: ^/_wdt, role: IS_AUTHENTICATED_ANONYMOUSLY }
@@ -82,4 +81,4 @@ security:
         # This config requires being logged for the whole site and having the admin role for the admin part.
         # Change these rules to adapt them to your needs
         - { path: ^/admin, role: [ROLE_ADMIN, ROLE_SONATA_ADMIN] }
-        #- { path: ^/.*, role: [IS_AUTHENTICATED_ANONYMOUSLY, ROLE_USER] }            
+        - { path: ^/.*, role: [IS_AUTHENTICATED_ANONYMOUSLY, ROLE_USER] }            

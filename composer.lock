@@ -1,5 +1,5 @@
 {
-    "hash": "1aa1e1d9855c9f839f94cd7cf1f15107",
+    "hash": "32fad04d163824af03db9b162bfd438a",
     "packages": [
         {
             "name": "CodePlex/PHPExcel",
@@ -1193,6 +1193,101 @@
             "keywords": [
                 "log",
                 "logging"
+            ]
+        },
+        {
+            "name": "raulfraile/ladybug",
+            "version": "v0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/Ladybug",
+                "reference": "v0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/raulfraile/Ladybug/zipball/v0.5",
+                "reference": "v0.5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/serializer": ">=2.0.4",
+                "symfony/yaml": ">=2.0.4"
+            },
+            "time": "2012-02-25 13:31:12",
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Ladybug": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raul Fraile",
+                    "email": "raulfraile@gmail.com",
+                    "homepage": "http://www.raulfrailebeneyto.com/"
+                }
+            ],
+            "description": "Simple and Extensible PHP Dumper",
+            "homepage": "https://github.com/raulfraile/Ladybug",
+            "keywords": [
+                "tree",
+                "dump",
+                "ladybug"
+            ]
+        },
+        {
+            "name": "raulfraile/ladybug-bundle",
+            "version": "dev-master",
+            "target-dir": "RaulFraile/Bundle/LadybugBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/raulfraile/LadybugBundle",
+                "reference": "60c62e7dcee195b919ee5fa2fcf4cd928e8cda50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/raulfraile/LadybugBundle/archive/60c62e7dcee195b919ee5fa2fcf4cd928e8cda50.zip",
+                "reference": "60c62e7dcee195b919ee5fa2fcf4cd928e8cda50",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": ">=2.0.0",
+                "raulfraile/ladybug": ">=0.5"
+            },
+            "replace": {
+                "raulfraile/ladybugbundle": "dev-master"
+            },
+            "time": "2013-01-22 07:28:09",
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "RaulFraile\\Bundle\\LadybugBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Raul Fraile",
+                    "email": "raulfraile@gmail.com",
+                    "homepage": "http://www.raulfrailebeneyto.com/"
+                }
+            ],
+            "description": "Symfony2 bundle for Ladybug library (Simple and Extensible PHP Dumper)",
+            "homepage": "https://github.com/raulfraile/LadybugBundle",
+            "keywords": [
+                "tree",
+                "twig",
+                "dump",
+                "ladybug"
             ]
         },
         {
@@ -2408,6 +2503,7 @@
         "doctrine/doctrine-fixtures-bundle": 20,
         "doctrine/data-fixtures": 20,
         "liuggio/excelbundle": 20,
-        "irongit/symfony2-stream-response": 20
+        "irongit/symfony2-stream-response": 20,
+        "raulfraile/ladybug-bundle": 20
     }
 }

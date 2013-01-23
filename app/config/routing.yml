@@ -1,8 +1,15 @@
 _sonata:
     resource: routing_sonata.yml
 
+_fos_user:
+    resource: routing_fos_user.yml    
+
 fos_js_routing:
     resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
+
+dashboard:
+    pattern:  /admin/dashboard
+    defaults: { _controller: SonataAdminBundle:Core:dashboard}
 
 # Internal routing configuration to handle ESI
 # ****** WARNING ******
