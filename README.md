@@ -1,15 +1,24 @@
 Proyecto Base
 ========================
 
-Proyecto Base es una configuración inicial para el desarrollo de aplicaciones con Symfony 2. Incluye una serie de Bundles y configuraciones que permiten comenzar rápidamente un nuevo desarrollo de sistema web.
+**Proyecto Base** es una configuración inicial para el desarrollo de aplicaciones con Symfony 2. Incluye una seleccion de Bundles, librerías y configuraciones que permiten comenzar rápidamente un nuevo desarrollo.
 
-1) ¿Qué está inluído?
-  SonataAdminBundle, SonataDoctrineORMAdminBundle, FOSUserBundle, SimpleThingsEntityAuditBundle, RaulFraileLadybugBundle, LiuggioExcelBundle.
+¿Qué está inluído?
+------------------
 
-2) Instalación
---------------
+  - SonataAdminBundle,
+  - SonataDoctrineORMAdminBundle,
+  - FOSUserBundle,
+  - SimpleThingsEntityAuditBundle,
+  - RaulFraileLadybugBundle,
+  - LiuggioExcelBundle.
+  - Twitter Bootstrap 
+  - jQuery
 
-  Clonar el proyecto
+Instalación
+-----------
+
+  Clonar el proyecto:
   Instalar [Composer][1]
     curl -s https://getcomposer.org/installer | php  
   Ejecutar:
