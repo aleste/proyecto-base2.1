@@ -33,7 +33,7 @@ class AppKernel extends Kernel
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
             new Liuggio\ExcelBundle\LiuggioExcelBundle(),
             new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle(),
-            //new WhiteOctober\TCPDFBundle\WhiteOctoberTCPDFBundle(),
+            new WhiteOctober\TCPDFBundle\WhiteOctoberTCPDFBundle(),
             new Application\Sonata\UserBundle\ApplicationSonataUserBundle()
 
         );

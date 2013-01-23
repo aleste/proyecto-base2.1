@@ -1,5 +1,5 @@
 {
-    "hash": "32fad04d163824af03db9b162bfd438a",
+    "hash": "ec36a253cc288bf1552452dc4397df54",
     "packages": [
         {
             "name": "CodePlex/PHPExcel",
@@ -1476,12 +1476,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "e6f8fe9e55abeb130253d32f89802eb85a93d490"
+                "reference": "1797820984d01eb9846f50385d559c7be0cafbce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sonata-project/SonataAdminBundle/archive/e6f8fe9e55abeb130253d32f89802eb85a93d490.zip",
-                "reference": "e6f8fe9e55abeb130253d32f89802eb85a93d490",
+                "url": "https://github.com/sonata-project/SonataAdminBundle/archive/1797820984d01eb9846f50385d559c7be0cafbce.zip",
+                "reference": "1797820984d01eb9846f50385d559c7be0cafbce",
                 "shasum": ""
             },
             "require": {
@@ -1506,7 +1506,7 @@
                 "sonata-project/doctrine-orm-admin-bundle": "dev-master",
                 "sonata-project/intl-bundle": "dev-master"
             },
-            "time": "2013-01-22 23:42:33",
+            "time": "2013-01-23 15:47:08",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
@@ -2382,6 +2382,61 @@
             ]
         },
         {
+            "name": "tecnick.com/tcpdf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://git.code.sf.net/p/tcpdf/code",
+                "reference": "f7d525858a807acb59a21857e78706917ae8dbf7"
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2013-01-22 17:33:43",
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "fonts",
+                    "config/lang",
+                    "config",
+                    "2dbarcodes.php",
+                    "barcodes.php",
+                    "datamatrix.php",
+                    "encodings_maps.php",
+                    "htmlcolors.php",
+                    "pdf417.php",
+                    "qrcode.php",
+                    "spotcolors.php",
+                    "tcpdf.php",
+                    "tcpdf_filters.php",
+                    "tcpdf_parser.php",
+                    "unicode_data.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Nicola Asuni",
+                    "email": "info@tecnick.com",
+                    "homepage": "http://nicolaasuni.tecnick.com"
+                }
+            ],
+            "description": "TCPDF is a PHP class for generating PDF documents.",
+            "homepage": "http://www.tcpdf.org/",
+            "keywords": [
+                "pdf",
+                "TCPDF",
+                "qrcode",
+                "PDFD32000-2008",
+                "datamatrix",
+                "pdf417",
+                "barcodes"
+            ]
+        },
+        {
             "name": "twig/extensions",
             "version": "dev-master",
             "source": {
@@ -2476,6 +2531,51 @@
             "keywords": [
                 "templating"
             ]
+        },
+        {
+            "name": "whiteoctober/tcpdf-bundle",
+            "version": "dev-master",
+            "target-dir": "WhiteOctober/TCPDFBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/whiteoctober/WhiteOctoberTCPDFBundle.git",
+                "reference": "e9f16f7847ababa385f47f8b1091f8bca3405407"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/whiteoctober/WhiteOctoberTCPDFBundle/archive/e9f16f7847ababa385f47f8b1091f8bca3405407.zip",
+                "reference": "e9f16f7847ababa385f47f8b1091f8bca3405407",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/framework-bundle": ">=2.0",
+                "tecnick.com/tcpdf": "*"
+            },
+            "time": "2012-10-29 10:58:36",
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "WhiteOctober\\TCPDFBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rich Sage",
+                    "email": "rich.sage@gmail.com",
+                    "homepage": "http://www.richsage.co.uk/"
+                }
+            ],
+            "description": "A bundle to easily integrate TCPDF into Symfony2",
+            "homepage": "https://github.com/whiteoctober/WhiteOctoberTCPDFBundle",
+            "keywords": [
+                "pdf",
+                "TCPDF"
+            ]
         }
     ],
     "packages-dev": null,
@@ -2504,6 +2604,8 @@
         "doctrine/data-fixtures": 20,
         "liuggio/excelbundle": 20,
         "irongit/symfony2-stream-response": 20,
-        "raulfraile/ladybug-bundle": 20
+        "raulfraile/ladybug-bundle": 20,
+        "whiteoctober/tcpdf-bundle": 20,
+        "tecnick.com/tcpdf": 20
     }
 }

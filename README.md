@@ -11,8 +11,9 @@ Proyecto Base
   - FOSUserBundle,
   - SimpleThingsEntityAuditBundle,
   - RaulFraileLadybugBundle,
-  - LiuggioExcelBundle.
-  - Twitter Bootstrap 
+  - LiuggioExcelBundle,
+  - WhiteOctoberTCPDFBundle
+  - Twitter Bootstrap,
   - jQuery
 
 Instalación
