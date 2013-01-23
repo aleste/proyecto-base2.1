@@ -18,7 +18,25 @@
         "sensio/generator-bundle": "2.1.*",
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
-        "kriswallsmith/assetic": "1.1.*@dev"
+        "kriswallsmith/assetic": "1.1.*@dev",
+        "friendsofsymfony/user-bundle": "dev-master",
+        "friendsofsymfony/jsrouting-bundle": "dev-master",
+        "simplethings/entity-audit-bundle": "dev-master",        
+        "sonata-project/admin-bundle": "dev-master",
+        "sonata-project/doctrine-orm-admin-bundle": "dev-master",
+        "sonata-project/user-bundle": "dev-master",
+        "sonata-project/cache-bundle": "dev-master",     
+        "sonata-project/intl-bundle": "dev-master",
+        "sonata-project/jquery-bundle": "dev-master",
+        "sonata-project/exporter": "dev-master",
+        "sonata-project/block-bundle": "dev-master",
+        "sonata-project/easy-extends-bundle": "dev-master",
+        "sonata-project/doctrine-extensions": "dev-master",
+        "sonata-project/google-authenticator": "dev-master",
+        "doctrine/doctrine-fixtures-bundle": "dev-master",
+        "doctrine/data-fixtures": "dev-master",
+        "liuggio/ExcelBundle": "dev-master",
+        "irongit/symfony2-stream-response": "dev-master"         
     },
     "scripts": {
         "post-install-cmd": [
