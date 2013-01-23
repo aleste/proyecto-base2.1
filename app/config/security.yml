@@ -38,7 +38,7 @@ security:
                 use_referer:    true
             logout:
                 path:           /admin/logout
-                target:         /admin/login                
+                target:         /admin/login
             anonymous:    true
         # -> end custom configuration
         #Opcional para proteger el frontend

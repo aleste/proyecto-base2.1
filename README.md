@@ -34,9 +34,9 @@ Instalación
 
     php composer.phar install
 
-  Configure los permisos de la aplicación: 
+  Configure los permisos de la aplicación siguiendo los pasos de la [documentación][3] oficial: 
 
-    Siga los pasos descriptos en el apartado "Setting up Permissions" de la [documentación][3] de Symfony.
+    Siga los pasos descriptos en el apartado "Setting up Permissions" de la documentación de Symfony.
 
   Cree la base de datos el schema básico:
 
@@ -61,7 +61,7 @@ Instalación
 
 Proyecto Base incluye un backend utilizable que se puede acceder desde: 
 
-  http://localhost/proyecto-base/admin/dashboard
+    http://localhost/proyecto-base/admin/dashboard
 
 Lo que sigue es que cree su propio bundle y comience con el desarrollo de su nuevo proyecto.
 

@@ -26,8 +26,8 @@ fos_user:
     user_class:       Application\Sonata\UserBundle\Entity\User
 
     group:
-        group_class:  Application\Sonata\UserBundle\Entity\Group
-    
+        group_class:  Application\Sonata\UserBundle\Entity\Group    
+
 sonata_user:
     security_acl:           false
     impersonating_route:    dashboard # or any route you want to use (ex homepage)    
