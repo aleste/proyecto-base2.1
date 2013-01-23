@@ -20,19 +20,19 @@ Instalación
 
   Clonar el proyecto:
 
-    git clone https://github.com/aleste/proyecto-base.git
+    git clone https://github.com/aleste/proyecto-base.git suproyecto/
 
-  Si no tiene instalado [Composer][1] siga las instrucciones de [http://getcomposer.org/][2] ó ejecute:
+  Diríjase al directorio */suproyecto*. Si tiene instalado [Composer][1] salte éste paso sino siga las instrucciones de [http://getcomposer.org/][2] ó ejecute:
   
     curl -s https://getcomposer.org/installer | php  
+
+  Configure el archivo de parámetros de la aplicación y DB (tome como referencia el archivo parameters.dist.yml) y cree el archivo:
+
+    app/config/parameters.yml    
 
   Instale las dependencias:
 
     php composer.phar install
-
-  Configure el archivo de parámetros de la aplicación y DB (tome como referencia el archivo parameters.dist.yml) y cree el archivo:
-
-    app/config/parameters.yml
 
   Configure los permisos de la aplicación: 
 
@@ -55,6 +55,15 @@ Instalación
     php app/console assets:install web    
 
     php app/console assetic:dump web
+
+¿Cómo seguir?
+-------------
+
+Proyecto Base incluye un backend utilizable que se puede acceder desde: 
+
+  http://localhost/proyecto-base/admin/dashboard
+
+Lo que sigue es que cree su propio bundle y comience con el desarrollo de su nuevo proyecto.
 
 **NOTA:** Si no están bien configurados los permisos es posible que deba utilizar *sudo* para ejecutar los comandos (esto suponiendo que está trabajando en entorno linux, si estás con Windows....arreglate!)
 

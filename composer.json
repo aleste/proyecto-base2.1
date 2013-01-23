@@ -37,7 +37,9 @@
         "doctrine/data-fixtures": "dev-master",
         "liuggio/ExcelBundle": "dev-master",
         "irongit/symfony2-stream-response": "dev-master",
-        "raulfraile/ladybug-bundle": "dev-master"
+        "raulfraile/ladybug-bundle": "dev-master",
+        //"whiteoctober/tcpdf-bundle": "dev-master",
+        //"tecnick.com/tcpdf": "dev-master"
     },
     "scripts": {
         "post-install-cmd": [
