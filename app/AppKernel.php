@@ -32,12 +32,11 @@ class AppKernel extends Kernel
             new FOS\UserBundle\FOSUserBundle(),            
             new FOS\JsRoutingBundle\FOSJsRoutingBundle(),
             new Liuggio\ExcelBundle\LiuggioExcelBundle(),
-            new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),            
+            new Application\Sonata\UserBundle\ApplicationSonataUserBundle()
 
         );
 
-        if (in_array($this->getEnvironment(), array('dev', 'test'))) {
-            $bundles[] = new Acme\DemoBundle\AcmeDemoBundle();
+        if (in_array($this->getEnvironment(), array('dev', 'test'))) {            
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             $bundles[] = new Sensio\Bundle\DistributionBundle\SensioDistributionBundle();
             $bundles[] = new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle();
