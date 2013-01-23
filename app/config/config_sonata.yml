@@ -10,7 +10,7 @@ sonata_admin:
     title_logo: '/bundles/sonataadmin/logo_title.png'
     templates:
         # default global templates
-        layout:    SonataAdminBundle::standard_layout.html.twig
+        layout:    ::standard_layout_sonata.html.twig
         ajax:      SonataAdminBundle::ajax_layout.html.twig
         dashboard: SonataAdminBundle:Core:dashboard.html.twig
 
