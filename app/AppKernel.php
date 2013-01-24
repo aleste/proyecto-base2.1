@@ -34,8 +34,9 @@ class AppKernel extends Kernel
             new Liuggio\ExcelBundle\LiuggioExcelBundle(),
             new RaulFraile\Bundle\LadybugBundle\RaulFraileLadybugBundle(),
             new WhiteOctober\TCPDFBundle\WhiteOctoberTCPDFBundle(),
-            new Application\Sonata\UserBundle\ApplicationSonataUserBundle()
-
+            new Application\Sonata\UserBundle\ApplicationSonataUserBundle(),
+            new Bmatzner\FontAwesomeBundle\BmatznerFontAwesomeBundle(),
+            new Apr\FrontendBundle\FrontendBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {            

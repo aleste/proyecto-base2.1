@@ -1,0 +1,102 @@
+{% extends 'FrontendBundle::layout.html.twig' %}
+
+{% block container %}  
+<div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+                <li class="nav-header">Opciones Laterales</li>
+                <li class="active"><a href="{{url('frontend_homepage')}}"><i class="icon-home"></i> Inicio</a></li>
+                <li><a href="#"><i class="icon-book"></i> Opción 1</a></li>
+                <li><a href="#"><i class="icon-pencil"></i> Opción 2</a></li>
+                <li><a href="{{url('dashboard')}}"><i class="icon-cogs"></i> Administración</a></li>
+            </ul>            
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span10">
+          <div class="hero-unit">
+            <h1>Hello, world!</h1>
+            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+          </div>
+          <div class="row-fluid">
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+          <div class="row-fluid">
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2>Heading</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+<p><i class="icon-camera-retro icon-large"></i> icon-camera-retro</p>
+<p><i class="icon-camera-retro icon-2x"></i> icon-camera-retro</p>
+<p><i class="icon-camera-retro icon-3x"></i> icon-camera-retro</p>
+<p><i class="icon-camera-retro icon-4x"></i> icon-camera-retro</p>
+<i class="icon-spinner icon-spin"></i> Spinner icon when loading content..
+
+<div class="btn-group open">
+    <a class="btn btn-primary" href="#"><i class="icon-user"></i> User</a>
+    <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="icon-caret-down"></span></a>
+    <ul class="dropdown-menu">
+        <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+        <li><a href="#"><i class="icon-trash"></i> Delete</a></li>
+        <li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
+        <li class="divider"></li>
+        <li><a href="#"><i class="i"></i> Make admin</a></li>
+    </ul>
+</div>
+
+<ul class="icons">
+    <li><i class="icon-ok"></i> Lists</li>
+    <li><i class="icon-ok"></i> Buttons</li>
+    <li><i class="icon-ok"></i> Button groups</li>
+    <li><i class="icon-ok"></i> Navigation</li>
+    <li><i class="icon-ok"></i> Prepended form inputs</li>
+</ul>
+
+<a class="btn" href="#">
+  <i class="icon-repeat"></i> Recargar</a>
+<a class="btn btn-large btn-primary" href="#">
+  <i class="icon-comment"></i> Comentario</a>
+<a class="btn btn-small btn-info" href="#">
+  <i class="icon-info-sign"></i> Info</a>
+<a class="btn btn-danger" href="#">
+  <i class="icon-trash icon-large"></i> Borrar</a>
+<a class="btn btn-small" href="#">
+  <i class="icon-cog"></i> Settings</a>
+<a class="btn btn-large btn-danger" href="#">
+  <i class="icon-flag icon-2x pull-left"></i>Font Awesome<br>Version 3.0</a>
+<a class="btn btn-primary" href="#">
+  <i class="icon-refresh icon-spin"></i> Synchronizing Content...</a>
+{% endblock container %}

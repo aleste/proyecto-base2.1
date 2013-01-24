@@ -1,5 +1,5 @@
 {
-    "hash": "ec36a253cc288bf1552452dc4397df54",
+    "hash": "293740425f1b7eea7d8c7065298898d7",
     "packages": [
         {
             "name": "CodePlex/PHPExcel",
@@ -49,6 +49,53 @@
                 "excel",
                 "spreadsheet",
                 "OpenXML"
+            ]
+        },
+        {
+            "name": "bmatzner/fontawesome-bundle",
+            "version": "3.0.2",
+            "target-dir": "Bmatzner/FontAwesomeBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bmatzner/BmatznerFontAwesomeBundle",
+                "reference": "3.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/bmatzner/BmatznerFontAwesomeBundle/archive/3.0.2.zip",
+                "reference": "3.0.2",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/framework-bundle": ">=2.1"
+            },
+            "time": "2013-01-18 09:49:16",
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Bmatzner\\FontAwesomeBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT",
+                "CC BY 3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Bernd Matzner",
+                    "email": "bernd@matznermatzner.de",
+                    "homepage": "http://berndmatzner.de"
+                }
+            ],
+            "description": "FontAwesome Bundle for Symfony2",
+            "homepage": "http://fortawesome.github.com/Font-Awesome/",
+            "keywords": [
+                "graphics",
+                "symfony",
+                "css",
+                "webfonts",
+                "typography"
             ]
         },
         {
@@ -1476,12 +1523,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "1797820984d01eb9846f50385d559c7be0cafbce"
+                "reference": "25e5892ce956c4c50bcc17e75d78b8084d49894a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sonata-project/SonataAdminBundle/archive/1797820984d01eb9846f50385d559c7be0cafbce.zip",
-                "reference": "1797820984d01eb9846f50385d559c7be0cafbce",
+                "url": "https://github.com/sonata-project/SonataAdminBundle/archive/25e5892ce956c4c50bcc17e75d78b8084d49894a.zip",
+                "reference": "25e5892ce956c4c50bcc17e75d78b8084d49894a",
                 "shasum": ""
             },
             "require": {
@@ -1506,7 +1553,7 @@
                 "sonata-project/doctrine-orm-admin-bundle": "dev-master",
                 "sonata-project/intl-bundle": "dev-master"
             },
-            "time": "2013-01-23 15:47:08",
+            "time": "2013-01-24 11:51:06",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
@@ -2015,12 +2062,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataUserBundle",
-                "reference": "07739c231346d70b88a05051288b1f237c2b1645"
+                "reference": "8b09ba6ecf4b0ba61f8341119d2e3145e82aa70e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sonata-project/SonataUserBundle/archive/07739c231346d70b88a05051288b1f237c2b1645.zip",
-                "reference": "07739c231346d70b88a05051288b1f237c2b1645",
+                "url": "https://github.com/sonata-project/SonataUserBundle/archive/8b09ba6ecf4b0ba61f8341119d2e3145e82aa70e.zip",
+                "reference": "8b09ba6ecf4b0ba61f8341119d2e3145e82aa70e",
                 "shasum": ""
             },
             "require": {
@@ -2037,7 +2084,7 @@
             "suggest": {
                 "sonata-project/doctrine-orm-admin-bundle": "dev-master"
             },
-            "time": "2013-01-22 14:56:09",
+            "time": "2013-01-24 10:04:16",
             "type": "symfony-bundle",
             "autoload": {
                 "psr-0": {
