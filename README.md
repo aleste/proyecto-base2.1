@@ -12,7 +12,7 @@ Proyecto Base
   - SimpleThingsEntityAuditBundle,
   - RaulFraileLadybugBundle,
   - LiuggioExcelBundle,
-  - WhiteOctoberTCPDFBundle
+  - WhiteOctoberTCPDFBundle,
   - Twitter Bootstrap,
   - jQuery
 
