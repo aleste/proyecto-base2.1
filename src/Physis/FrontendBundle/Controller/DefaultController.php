@@ -1,6 +1,6 @@
 <?php
 
-namespace Apr\FrontendBundle\Controller;
+namespace Physis\FrontendBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Apr\FrontendBundle\Tests\Controller;
+namespace Physis\FrontendBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

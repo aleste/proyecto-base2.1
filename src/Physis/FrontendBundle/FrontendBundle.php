@@ -1,6 +1,6 @@
 <?php
 
-namespace Apr\FrontendBundle;
+namespace Physis\FrontendBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

@@ -1,0 +1,11 @@
+{% javascripts output='js/default.js' filter='yui_js'
+        '//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'            
+        '../app/Resources/public/bootstrap/js/bootstrap.min.js'
+        '../app/Resources/public/jquery/jquery.maskedinput-1.3.min.js'
+        '../app/Resources/public/jquery/jquery.bestupper.min.js'
+%}
+    <script src="{{ asset_url }}"></script>                            
+    <script type="text/javascript" src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+    <script type="text/javascript" src="{{ path('fos_js_routing_js', {"callback": "fos.Router.setData"}) }}"></script>             
+{% endjavascripts %}               
+<script>window.jQuery || document.write('<script src="../app/Resources/public/jquery/jquery-1.9.0.min.js"><\/script>')</script>
