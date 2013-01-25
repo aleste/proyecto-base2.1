@@ -39,7 +39,8 @@
         "irongit/symfony2-stream-response": "dev-master",
         "raulfraile/ladybug-bundle": "dev-master",
         "whiteoctober/tcpdf-bundle": "dev-master",
-        "tecnick.com/tcpdf": "dev-master"
+        "tecnick.com/tcpdf": "dev-master",
+        "bmatzner/fontawesome-bundle": "*"
     },
     "scripts": {
         "post-install-cmd": [

@@ -12,9 +12,10 @@ Proyecto Base
   - SimpleThingsEntityAuditBundle,
   - RaulFraileLadybugBundle,
   - LiuggioExcelBundle,
-  - WhiteOctoberTCPDFBundle,
-  - Twitter Bootstrap,
-  - jQuery
+  - WhiteOctoberTCPDFBundle  
+  - [Font Awesome][4],
+  - [Twitter Bootstrap][5],
+  - jQuery,
 
 Instalación
 -----------
@@ -71,3 +72,5 @@ Lo que sigue es que cree su propio bundle y comience con el desarrollo de su nue
 [1]:  http://getcomposer.org/
 [2]:  http://getcomposer.org/
 [3]:  http://symfony.com/doc/current/book/installation.html
+[4]:  http://fortawesome.github.com/Font-Awesome/
+[5]:  http://twitter.github.com/bootstrap
