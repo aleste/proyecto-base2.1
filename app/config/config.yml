@@ -61,3 +61,6 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+#GregwarCaptchaBundle Configuration
+gregwar_captcha: ~
