@@ -1,8 +1,10 @@
-{% javascripts output='js/default.js' filter='yui_js'
+{% javascripts output='js/default.js'
         '//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'            
         '../app/Resources/public/bootstrap/js/bootstrap.min.js'
         '../app/Resources/public/jquery/jquery.maskedinput-1.3.min.js'
         '../app/Resources/public/jquery/jquery.bestupper.min.js'
+        '@FrontendBundle/Resources/public/js/proyecto-base.js'
+        
 %}
     <script src="{{ asset_url }}"></script>                            
     <script type="text/javascript" src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>

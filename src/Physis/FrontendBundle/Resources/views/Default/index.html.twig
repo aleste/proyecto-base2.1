@@ -10,15 +10,19 @@
                 <li class="active"><a href="{{url('frontend_homepage')}}"><i class="icon-home"></i> Inicio</a></li>
                 <li><a href="#"><i class="icon-book"></i> Opción 1</a></li>
                 <li><a href="#"><i class="icon-pencil"></i> Opción 2</a></li>
+                <li><a href="#" id="link_ajax"><i class="icon-spinner"></i> AJAX?</a></li>
                 <li><a href="{{url('dashboard')}}"><i class="icon-cogs"></i> Administración</a></li>
             </ul>            
           </div><!--/.well -->
         </div><!--/span-->
-        <div class="span10">
-          <div class="hero-unit">
-            <h1>Proyecto Base!</h1>
-            <p>Es una configuración inicial para el desarrollo de Aplicaciones y Sistemas de Gestión web utilizando Symfony 2. Incluye una selección de los mejores Bundles, Librerías y configuraciones que te permiten comenzar rápidamente un nuevo desarrollo. ¿Qué incluye el proyecto? Una selección de los mejores Bundles y Librerías: SonataAdminBundle, SonataDoctrineORMAdminBundle, FOSUserBundle SimpleThingsEntityAuditBundle, RaulFraileLadybugBundle, LiuggioExcelBundle WhiteOctoberTCPDFBundle, Font Awesome, Twitter Bootstrap, entre otros. Además...</p>
-            <p><a class="btn btn-primary btn-large">Leer más &raquo;</a></p>
+        <div class="span10">          
+          <div id="msg"></div>
+          <div id="div_carga_con_ajax">
+            <div class="hero-unit">
+              <h1>Proyecto Base!</h1>
+              <p>Es una configuración inicial para el desarrollo de Aplicaciones y Sistemas de Gestión web utilizando Symfony 2. Incluye una selección de los mejores Bundles, Librerías y configuraciones que te permiten comenzar rápidamente un nuevo desarrollo. ¿Qué incluye el proyecto? Una selección de los mejores Bundles y Librerías: SonataAdminBundle, SonataDoctrineORMAdminBundle, FOSUserBundle SimpleThingsEntityAuditBundle, RaulFraileLadybugBundle, LiuggioExcelBundle WhiteOctoberTCPDFBundle, Font Awesome, Twitter Bootstrap, entre otros. Además...</p>
+              <p><a class="btn btn-primary btn-large">Leer más &raquo;</a></p>
+            </div>
           </div>
           <div class="row-fluid">
             <div class="span4">
