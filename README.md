@@ -12,7 +12,8 @@ Proyecto Base
   - SimpleThingsEntityAuditBundle,
   - RaulFraileLadybugBundle,
   - LiuggioExcelBundle,
-  - WhiteOctoberTCPDFBundle  
+  - WhiteOctoberTCPDFBundle,
+  - GregwarCaptchaBundle,  
   - [Font Awesome][4],
   - [Twitter Bootstrap][5],
   - jQuery,
@@ -48,7 +49,7 @@ Instalación
 
   Defina un usuario para la administración del sistema:
 
-    php app/console fos:user:create admin   (Defina un email u una contraseña para el usuario)
+    php app/console fos:user:create admin   (Defina un email y una contraseña para el usuario)
 
     php app/console fos:user:promote admin  (Setee el valor ROLE_SUPER_ADMIN)
 
