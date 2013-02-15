@@ -23,4 +23,9 @@ class DefaultController extends Controller
 
         return array();
     }
+
+    public function cargaConAjaxAction()
+    {        
+        return $this->render('FrontendBundle:Default:contenido_ajax.html.twig');
+    }
 }
